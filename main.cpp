@@ -16,11 +16,16 @@
 
 using namespace std;
 
+void print_sth();
 
 int main(int argc, char** argv) {
     
-    cout << "Hello World!" << endl;
+    print_sth();
     
     return EXIT_SUCCESS;
 }
 
+void print_sth()
+{
+    cout << "Hello World!" << endl;
+}
