@@ -14,8 +14,6 @@
 #include <iostream>
 #include <cstdlib>
 
-using namespace std;
-
 void print_sth();
 
 int main(int argc, char** argv) {
@@ -27,5 +25,5 @@ int main(int argc, char** argv) {
 
 void print_sth()
 {
-    cout << "Hello World!" << endl;
+    std::cout << "Hello World!" << std::endl;
 }
